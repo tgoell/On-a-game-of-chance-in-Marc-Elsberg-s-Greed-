@@ -129,7 +129,7 @@ for D in d_vec2:
 # Plot: fair pairs d, u
 plt.figure()
 plt.plot(d_vec2, null_vec, label = r"up factor $u$")
-plt.plot(d_vec2, 1/d_vec2, label = r"$u=\frac{1}{d}$ (Theorem 5.2)")
+plt.plot(d_vec2, 1/d_vec2, label = r"$u=\frac{1}{d}$ (Theorem 2)")
 plt.plot(0.6, 1.5, 'o', label = r"Elsberg")
 plt.ylabel(r"up factor $u$ (fair game)")
 plt.xlabel(r"down factor $d$")
